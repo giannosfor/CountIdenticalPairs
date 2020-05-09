@@ -11,7 +11,7 @@ class Solution {
             }
         }
 
-        return duplicates;
+        return  1_000_000_000 < duplicates ? 1_000_000_000 : duplicates;
     }
 }
 
